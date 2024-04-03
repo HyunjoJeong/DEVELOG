@@ -9,7 +9,7 @@ type TProps = {};
 export default function TopNavBar({}: TProps) {
   return (
     <>
-      <div className="background" style={{ width: "100%", height: 74 }} />
+      <div className="background" style={{ width: "100%", height: 70 }} />
       <Wrapper style={{ position: "fixed", top: "0px" }}>
         <header>
           <MainLogo />
@@ -25,23 +25,22 @@ export default function TopNavBar({}: TProps) {
 
 const Wrapper = styled.div`
   width: 100%;
-  height: 74px;
 
   position: fixed;
   top: 0px;
   z-index: 100;
 
-  background-color: #f4f4f8cc;
+  background-color: #f6f6fbdd;
 
   @media (prefers-color-scheme: dark) {
-    background-color: #2c2c2fcc;
+    background-color: #2c2c2fdd;
   }
 
   header {
     margin: 0 auto;
     max-width: ${maxWidth}px;
     width: 100%;
-    padding: 10px 15px;
+    padding: 15px;
 
     display: flex;
     justify-content: space-between;
