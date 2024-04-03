@@ -104,7 +104,7 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --color-main: #fafbfc;
+    --color-main: #d2d4d6;
     --bg-main: #36363a;
   }
 }
