@@ -1,12 +1,77 @@
-import StyledLink from "@components/atoms/StyledLink";
-import PageWrapper from "@components/templates/PageWrapper";
+import Layout from "@components/templates/Layout";
 
 export default function HomePage() {
   return (
-    <PageWrapper>
-      <div>ABCDEFG</div>
-      <StyledLink href="/">하이</StyledLink>
-      <p>앙아아아</p>
-    </PageWrapper>
+    <Layout>
+      <div>으어어</div>
+      <div>으어어</div>
+      <div>으어어</div>
+      <div>으어어</div>
+      <div>으어어</div>
+      <div>으어어</div>
+      <div>으어어</div>
+      <div>으어어</div>
+      <div>으어어</div>
+      <div>으어어</div>
+      <div>으어어</div>
+      <div>으어어</div>
+      <div>으어어</div>
+      <div>으어어</div>
+      <div>으어어</div>
+      <div>으어어</div>
+      <div>으어어</div>
+      <div>으어어</div>
+      <div>으어어</div>
+      <div>으어어</div>
+      <div>으어어</div>
+      <div>으어어</div>
+      <div>으어어</div>
+      <div>으어어</div>
+      <div>으어어</div>
+      <div>으어어</div>
+      <div>으어어</div>
+      <div>으어어</div>
+      <div>으어어</div>
+      <div>으어어</div>
+      <div>으어어</div>
+      <div>으어어</div>
+      <div>으어어</div>
+      <div>으어어</div>
+      <div>으어어</div>
+      <div>으어어</div>
+      <div>으어어</div>
+      <div>으어어</div>
+      <div>으어어</div>
+      <div>으어어</div>
+      <div>으어어</div>
+      <div>으어어</div>
+      <div>으어어</div>
+      <div>으어어</div>
+      <div>으어어</div>
+      <div>으어어</div>
+      <div>으어어</div>
+      <div>으어어</div>
+      <div>으어어</div>
+      <div>으어어</div>
+      <div>으어어</div>
+      <div>으어어</div>
+      <div>으어어</div>
+      <div>으어어</div>
+      <div>으어어</div>
+      <div>으어어</div>
+      <div>으어어</div>
+      <div>으어어</div>
+      <div>으어어</div>
+      <div>으어어</div>
+      <div>으어어</div>
+      <div>으어어</div>
+      <div>으어어</div>
+      <div>으어어</div>
+      <div>으어어</div>
+      <div>으어어</div>
+      <div>으어어</div>
+      <div>으어어</div>
+      <div>으어어</div>
+    </Layout>
   );
 }

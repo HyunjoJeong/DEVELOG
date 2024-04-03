@@ -8,6 +8,7 @@ import Document, {
 import { ServerStyleSheet } from "styled-components";
 
 class MyDocument extends Document {
+  // * 참고: https://mniyunsu.github.io/nextjs-styled-component-setting/#_documenttsx
   static async getInitialProps(ctx: DocumentContext) {
     const sheet = new ServerStyleSheet();
     const originalRenderPage = ctx.renderPage;
