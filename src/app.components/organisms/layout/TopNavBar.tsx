@@ -1,7 +1,7 @@
-import { maxWidth } from "@/app.resources/constants";
 import MainLogo from "@components/atoms/common/MainLogo";
 import TopNavBarFeatures from "@components/molecules/layout/TopNavBarFeatures";
 import TopNavBarNaviItems from "@components/molecules/layout/TopNavBarNaviItems";
+import { maxWidth } from "@resources/constants";
 import styled from "styled-components";
 
 type TProps = {};

@@ -14,6 +14,7 @@
     "incremental": true,
     "paths": {
       "@components/*": ["./src/app.components/*"],
+      "@resources/*": ["./src/app.resources/*"],
       "@/*": ["./src/*"]
     }
   },
