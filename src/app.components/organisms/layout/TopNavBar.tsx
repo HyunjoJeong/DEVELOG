@@ -13,6 +13,10 @@ export default function TopNavBar({}: TProps) {
       <Wrapper style={{ position: "fixed", top: "0px" }}>
         <header>
           <MainLogo />
+          {/**
+           * TODO
+           * TopNavBarNaviItems, TopNavBarFeatures 두개로 나누지 말고 하나의 컴포넌트로 통합하자. (velog에 좀 더 가깝게..)
+           */}
           <div className="right-items-container">
             <TopNavBarNaviItems />
             <TopNavBarFeatures />
@@ -43,6 +47,7 @@ const Wrapper = styled.div`
     padding: 15px;
 
     display: flex;
+    align-items: center;
     justify-content: space-between;
   }
 
