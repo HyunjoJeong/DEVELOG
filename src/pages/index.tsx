@@ -1,77 +1,10 @@
+import PostList from "@components/organisms/PostList";
 import Layout from "@components/templates/Layout";
 
 export default function HomePage() {
   return (
     <Layout>
-      <div>으어어</div>
-      <div>으어어</div>
-      <div>으어어</div>
-      <div>으어어</div>
-      <div>으어어</div>
-      <div>으어어</div>
-      <div>으어어</div>
-      <div>으어어</div>
-      <div>으어어</div>
-      <div>으어어</div>
-      <div>으어어</div>
-      <div>으어어</div>
-      <div>으어어</div>
-      <div>으어어</div>
-      <div>으어어</div>
-      <div>으어어</div>
-      <div>으어어</div>
-      <div>으어어</div>
-      <div>으어어</div>
-      <div>으어어</div>
-      <div>으어어</div>
-      <div>으어어</div>
-      <div>으어어</div>
-      <div>으어어</div>
-      <div>으어어</div>
-      <div>으어어</div>
-      <div>으어어</div>
-      <div>으어어</div>
-      <div>으어어</div>
-      <div>으어어</div>
-      <div>으어어</div>
-      <div>으어어</div>
-      <div>으어어</div>
-      <div>으어어</div>
-      <div>으어어</div>
-      <div>으어어</div>
-      <div>으어어</div>
-      <div>으어어</div>
-      <div>으어어</div>
-      <div>으어어</div>
-      <div>으어어</div>
-      <div>으어어</div>
-      <div>으어어</div>
-      <div>으어어</div>
-      <div>으어어</div>
-      <div>으어어</div>
-      <div>으어어</div>
-      <div>으어어</div>
-      <div>으어어</div>
-      <div>으어어</div>
-      <div>으어어</div>
-      <div>으어어</div>
-      <div>으어어</div>
-      <div>으어어</div>
-      <div>으어어</div>
-      <div>으어어</div>
-      <div>으어어</div>
-      <div>으어어</div>
-      <div>으어어</div>
-      <div>으어어</div>
-      <div>으어어</div>
-      <div>으어어</div>
-      <div>으어어</div>
-      <div>으어어</div>
-      <div>으어어</div>
-      <div>으어어</div>
-      <div>으어어</div>
-      <div>으어어</div>
-      <div>으어어</div>
+      <PostList />
     </Layout>
   );
 }
